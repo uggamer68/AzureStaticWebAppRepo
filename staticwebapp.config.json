@@ -2,11 +2,11 @@
     "routes": [
       {
         "route": "/publicPage1.html",
-        "redirect" : "https://azstorageforstaticwebapp.blob.core.windows.net/testcontainerouter/Private/privatePageOnAZStorage.html"
+        "rewrite" : "https://azstorageforstaticwebapp.blob.core.windows.net/testcontainerouter/Private/privatePageOnAZStorage.html"
       },
       {
         "route": "/privatePage1.html",
-        "redirect" : "https://azstorageforstaticwebapp.blob.core.windows.net/testcontainerouter/Public/publicPageOnAZStorage.html"
+        "rewrite" : "https://azstorageforstaticwebapp.blob.core.windows.net/testcontainerouter/Public/publicPageOnAZStorage.html"
       }
     ],
     "globalHeaders": {
